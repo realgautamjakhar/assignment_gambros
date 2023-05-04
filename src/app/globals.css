@@ -8,7 +8,7 @@
   height: 800px;
   left: 0px;
   top: 0px;
-  z-index: -1;
+  z-index: -2;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@
   height: 957.12px;
   right: 0px;
   top: 469px;
-  z-index: -1;
+  z-index: -2;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("/assets/patterns/circles-02.svg");
@@ -41,10 +41,11 @@
 
 .gradient-012 {
   position: absolute;
-  width: 603px;
-  height: 1200px;
+  width: 539px;
+  height: 907px;
   right: 0px;
-  top: 50.84px;
+  top: 0px;
+
   z-index: -1;
   background-repeat: no-repeat;
   background-size: cover;

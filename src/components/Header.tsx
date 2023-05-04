@@ -30,9 +30,10 @@ const Header = () => {
           width={222}
           height={50}
           alt="brand logo"
+          className=" w-36 md:w-56"
         />
       </div>
-      <nav className="hidden md:block">
+      <nav className="hidden lg:block">
         <ul className="flex items-center gap-4">
           {links.map((link) => {
             return (

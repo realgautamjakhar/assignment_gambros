@@ -29,7 +29,7 @@ const buttonClasses = cva(
       },
       size: {
         medium: " py-2 px-4 text-base",
-        large: " py-3 px-5 text-lg ",
+        large: " md:py-3 md:px-5 py-2 px-4 text-sm md:text-lg  ",
         small: "py-1.5 px-4 text-sm",
       },
     },

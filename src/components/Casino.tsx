@@ -5,7 +5,10 @@ import Image from "next/image";
 
 const Casino = () => {
   return (
-    <section className="flex relative flex-col items-center gap-4 p-4  md:p-0">
+    <section className="flex flex-col items-center gap-4 p-4  xl:p-0">
+      <div className="gradient-021" />
+      <div className="circle-02-pattern" />
+      <div className="gradient-022" />
       <h2 className=" text-[clamp(1rem,8vw,3rem)]   font-[900] font-Inter mx-auto pt-12 md:pt-24 text-center text-white">
         Unsere Partner-Casinos
       </h2>
@@ -39,7 +42,7 @@ const Casino = () => {
           </Button>
         </div>
       </div>
-      <div className="mx-auto gap-6 grid">
+      <div className=" gap-6 grid  grid-cols-[repeat(auto-fit,minmax(300px,1fr))] justify-center xl:grid-cols-1 w-full xl:w-fit  xl:mx-auto">
         <CasinoCard />
         <CasinoCard />
         <CasinoCard />

@@ -1,3 +1,4 @@
+import Bg from "@/components/Bg";
 import Casino from "@/components/Casino";
 import Community from "@/components/Community";
 import Footer from "@/components/Footer";
@@ -8,13 +9,10 @@ export default function Home() {
   return (
     <main className=" font-Inter relative overflow-hidden">
       <Header />
-      <div className="gradient-011" />
-      <div className="gradient-012" />
+      <Bg />
       <div className="circle-pattern" />
       <Hero />
-      <div className="gradient-021" />
-      <div className="circle-02-pattern" />
-      <div className="gradient-022" />
+
       <Casino />
       <Shop />
       <Community />

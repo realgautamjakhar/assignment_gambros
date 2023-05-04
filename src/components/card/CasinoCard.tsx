@@ -5,14 +5,14 @@ import Button from "../Button";
 const CasinoCard = () => {
   return (
     <div className=" xl:w-[73rem] w-full grid text-[#E9E9E9] overflow-hidden  xl:grid-cols-[225px,1fr,auto,1fr,auto] gap-4 xl:h-40 rounded-xl bg-CasinoCardGradient">
-      <div className="relative grid place-content-center h-full bg-[#09113c]">
+      <div className="relative grid py-10 xl:py-0 place-content-center h-full bg-[#09113c]">
         <Image
           src={"/assets/logo-102.svg"}
           alt="logo"
           width={128}
           height={82}
         />
-        <div className="flex absolute -right-8 top-0 h-full">
+        <div className=" absolute -right-8 top-0 h-full hidden xl:flex">
           <div className=" w-4 h-full bg-[#264ef8] skew-x-12" />
           <div className=" w-4 h-full bg-[#3fb1fc] skew-x-12" />
           <div className=" w-4 h-full bg-[#74d4ed] skew-x-12" />
