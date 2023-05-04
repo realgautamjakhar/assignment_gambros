@@ -2,26 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.circle-pattern {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/patterns/circles.svg");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.circle-02-pattern {
+  position: absolute;
+  width: 600px;
+  height: 957.12px;
+  right: 0px;
+  top: 469px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/patterns/circles-02.svg");
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.gradient-011 {
+  position: absolute;
+  width: 617px;
+  height: 520px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/gradients/hero-gradient-01.svg");
+}
+
+.gradient-012 {
+  position: absolute;
+  width: 603px;
+  height: 1200px;
+  right: 0px;
+  top: 50.84px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/gradients/hero-gradient-02.svg");
+}
+
+.gradient-021 {
+  position: absolute;
+  width: 670px;
+  height: 1046.87px;
+  left: 0%;
+  top: 763.92px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/gradients/bubble-01.svg");
+}
+.gradient-022 {
+  position: absolute;
+  width: 590px;
+  height: 1201.66px;
+  right: 0%;
+  top: 763.92px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/gradients/bubble-02.svg");
+}
+
+.gradient-03 {
+  position: absolute;
+  width: 765px;
+  height: 426px;
+  left: 25%;
+  top: 25%;
+  z-index: -1;
+  background: linear-gradient(180deg, #ff18a3 0%, #ff9417 100%);
+  filter: blur(108.744px);
+}
+
+.gradient-04 {
+  position: absolute;
+  width: 765px;
+  height: 426px;
+  left: 30%;
+  top: 70%;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(24, 75, 255, 0) 0%, #174aff 100%);
+  filter: blur(108.744px);
 }
